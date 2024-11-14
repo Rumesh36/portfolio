@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(118, 103, 165);
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 2rem;
+}
+a{
+    transition: 0.3s ease-in-out;
+    text-decoration: solid;
+
+}
+a:hover{
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem; 
+    cursor: pointer;  
+}
+.ham{
+    display: none;
+}
+
+@media (max-width:700px) {
+    
+    .hambar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+        padding-top: 3rem;
+       margin-left: 12rem;
+       height: 100vh;
+       padding-bottom: 20rem;
+    }
+    .ham{
+        display: block;
+        right: 1rem;
+        top:1rem;
+        cursor: pointer;
+    }
+    .Portfolio{
+        position: fixed;
+        top:1rem;
+        left:1.1rem;
+
+    }
+    a:hover{
+        background-color: black;
+    }
+    .close{
+      position:absolute;
+        top:1rem;
+        right: 9rem;
+        
+    }
+    
+}
