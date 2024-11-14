@@ -6,6 +6,11 @@ body{
     background-color: rgb(118, 103, 165);
     font-family: sans-serif;
 }
+.Portfolio{
+    position:absolute;
+    left:5rem;
+    font-size: 1.6rem;
+}
 ul{
     display: flex;
     justify-content: center;
@@ -24,6 +29,9 @@ a:hover{
     cursor: pointer;  
 }
 .ham{
+    display: none;
+}
+.close{
     display: none;
 }
 
@@ -49,12 +57,14 @@ a:hover{
         position: fixed;
         top:1rem;
         left:1.1rem;
+        font-size: 1.4rem;
 
     }
     a:hover{
         background-color: black;
     }
     .close{
+        display: inline;
       position:absolute;
         top:1rem;
         right: 9rem;
