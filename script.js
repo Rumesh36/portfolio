@@ -1,13 +1,13 @@
 function sidebar(){
     const sidebar=document.querySelector(".hambar");
+    const ham=document.querySelector(".ham");
         sidebar.style.display='flex';
+        ham.style.display="none";
+        
     }
     function closebar(){
         const closebar = document.querySelector(".hambar");
+        const ham=document.querySelector(".ham");
         closebar.style.display="none";
-    }
-    let r=document.querySelector(".ham");
-    let ul=document.querySelector(".hambar");
-    if(ul=="flex"){
-        r.style.display="none";
+        ham.style.display="flex";    
     }
