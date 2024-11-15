@@ -49,7 +49,7 @@ a:hover{
         color: whitesmoke;
         background-color: rgba(69, 120, 165, 0.61);
         padding-top: 3rem;
-       margin-left: 9rem;
+       margin-left: 0rem;
        height: 100vh;
        padding-bottom: 10rem;
     }
@@ -78,7 +78,7 @@ a:hover{
         display: inline;
       position:absolute;
         top:1rem;
-        right: 11rem;   
+        right: 2.5rem;   
         transition: 0.3s ease-in;
     }
     .close:hover{
@@ -106,10 +106,14 @@ a:hover{
    #t2{
     font-size: 1.2rem;
     padding-left: 0.7rem;
+    font-family: 'Courier New', Courier;
+    font-weight: 650;
    }
    #t3{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.9rem;
    }
 }
