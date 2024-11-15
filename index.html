@@ -13,23 +13,23 @@
     <!-- header -->
     <header>      
           <nav class="h-14 w-[100%]" >
+            <li class="text-xl Portfolio pt-8 ">Portfolio</li>
            <ul class="pt-8 menu hambar ">
-            <li class="text-xl Portfolio">Portfolio</li>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#Education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <span class="material-symbols-outlined absolute text-3xl right-2 ham" onclick="toggleMenu()">
-                menu
-                </span>
-                <i class="fa-sharp fa-solid fa-xmark text-2xl close"></i>
+            <i class="fa-sharp fa-solid fa-xmark text-2xl close" onclick=closebar()></i>
            </ul>
+           <span class="material-symbols-outlined absolute text-3xl right-2 ham" onclick=sidebar()>
+            menu
+            </span>
+           
            
         </nav>
     </header>
-
 <script src="script.js"></script>
 </body>
 </html>

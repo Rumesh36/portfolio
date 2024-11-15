@@ -9,7 +9,9 @@ body{
 .Portfolio{
     position:absolute;
     left:5rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    list-style: none;
+   
 }
 ul{
     display: flex;
@@ -38,37 +40,47 @@ a:hover{
 @media (max-width:700px) {
     
     .hambar{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         background-color: aliceblue;
         padding-top: 3rem;
-       margin-left: 12rem;
+       margin-left: 9rem;
        height: 100vh;
        padding-bottom: 20rem;
     }
     .ham{
-        display: block;
+        display: flex;
         right: 1rem;
-        top:1rem;
+        top:0.9rem;
         cursor: pointer;
+        font-size: 1.rem;
+    }
+    .ham:hover{
+        font-size: 1.9rem;
     }
     .Portfolio{
+        display: block;
         position: fixed;
-        top:1rem;
+        top: -1rem;
         left:1.1rem;
         font-size: 1.4rem;
 
     }
     a:hover{
         background-color: black;
+        width: 100%;
+        transition: 0.2s ease-in;
     }
     .close{
         display: inline;
       position:absolute;
         top:1rem;
-        right: 9rem;
-        
+        right: 11rem;   
+        transition: 0.3s ease-in;
+    }
+    .close:hover{
+        font-size: 2rem;
     }
     
 }
