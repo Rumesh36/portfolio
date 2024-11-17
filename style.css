@@ -6,14 +6,17 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 .Portfolio{
-    position:absolute;
-    left:6rem;
+    
+    margin-left: 2.5em;
     font-size: 1.9rem;
     font-weight: 600;
-    list-style: none;
     color: rgb(153, 9, 9) ;
-   
+    margin-right: 1em;
 }
 ul{
     display: flex;
@@ -21,6 +24,8 @@ ul{
     gap: 2.5rem;
     padding-top: 2rem;
     font-size: 1.2rem;
+    margin-right: 3em;
+    
 }
 a{
     transition: 0.3s ease-in-out;
@@ -97,7 +102,10 @@ a:hover{
     font-size: 2rem;
     
 }
-@media (max-width:700px) {
+@media (max-width:800px) {
+    nav{
+        display: block;
+    }
     
     .hambar{
         display: none;
@@ -111,6 +119,7 @@ a:hover{
        margin-left: 0rem;
        height: 100vh;
        padding-bottom: 10rem;
+       margin-right: 0;
     }
     .ham{
         display: flex;
@@ -124,7 +133,7 @@ a:hover{
         display: block;
         position: fixed;
         top: -1rem;
-        left:1.1rem;
+        margin-left: 1.8rem;
         font-size: 1.4rem;
 
     }
