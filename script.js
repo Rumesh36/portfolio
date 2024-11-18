@@ -11,3 +11,7 @@ function sidebar(){
         closebar.style.display="none";
         ham.style.display="flex";    
     }
+function hamclick(){
+    const hamclick=document.querySelector(".hambar");
+    hamclick.style.display="none";
+}
