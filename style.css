@@ -11,7 +11,6 @@ nav{
     justify-content: space-between;
 }
 .Portfolio{
-    
     margin-left: 2.5em;
     font-size: 1.9rem;
     font-weight: 600;
@@ -141,13 +140,17 @@ a:hover{
     font-size: 2rem;
     
 }
-
+html{
+    scroll-behavior: smooth;
+}
+/* responsive for mobile */
 @media (max-width:800px) {
     nav{
         display: block;
     }
     
     .hambar{
+        position: fixed;
         display: none;
         flex-direction: column;
         align-items: center;
@@ -156,7 +159,8 @@ a:hover{
         color: whitesmoke;
         background-color: rgba(69, 120, 165, 0.61);
         padding-top: 3rem;
-       margin-left: 0rem;
+       margin-left:0rem;
+       width: 100vw;
        height: 100vh;
        padding-bottom: 10rem;
        margin-right: 0;
@@ -174,16 +178,16 @@ a:hover{
    
    }
     .ham{
+        position:fixed;
         display: flex;
-        position:absolute;
         right: 2rem;
         top:0.9rem;
         cursor: pointer;
         font-size: 1.6rem;
     }
     .Portfolio{
-        display: block;
-        position: fixed;
+        display: inline-block;
+        position: absolute;
         top: -1rem;
         margin-left: 1.8rem;
         font-size: 1.4rem;
