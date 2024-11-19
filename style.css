@@ -28,7 +28,7 @@ nav{
         opacity: 1;
     }
 }
-.hambar{
+.menu{
     display: flex;
     justify-content: center;
     gap: 2.5rem;
@@ -276,6 +276,9 @@ html{
            opacity: 1;
         }
    
+   }
+   .menu{
+    display: none;
    }
     .ham{
         position:fixed;
