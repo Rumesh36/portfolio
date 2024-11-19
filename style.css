@@ -12,7 +12,7 @@ nav{
 }
 .Portfolio{
     margin-left: 2.5em;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 600;
     color: rgb(153, 9, 9) ;
     margin-right: 1em;
@@ -259,7 +259,7 @@ html{
         align-items: center;
         backdrop-filter: blur(7px);
         font-size: 1.15rem;
-        color: whitesmoke;
+        color: rgb(255, 255, 255);
         background-color: rgba(69, 120, 165, 0.61);
         padding-top: 3rem;
        margin-left:0rem;
@@ -270,6 +270,12 @@ html{
        animation: buttomsanimate 0.35s linear;
        gap: 2.5rem;
     
+    }
+    li:hover{
+        background-color: rgba(221, 221, 221, 0.658);
+        width: 100%;
+        opacity: 1;
+        text-align: center;
     }
     @keyframes buttomsanimate{
         0%{
@@ -302,9 +308,10 @@ html{
 
     }
     a:hover{
-        background-color: rgb(255, 255, 255);
         color: black;
+        opacity: 1;
         transition: 0.2s ease-in;
+        font-size: 1.6rem;
     }
     .close{
         display: inline;
