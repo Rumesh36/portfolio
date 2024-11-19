@@ -37,6 +37,9 @@ nav{
     margin-right: 3em;
     animation: buttomsanimate 1.2s linear;
 }
+.hambar{
+    display: none;
+}
 @keyframes buttomsanimate{
      0%{
         transform: translateX(100px);
@@ -265,6 +268,8 @@ html{
        padding-bottom: 10rem;
        margin-right: 0;
        animation: buttomsanimate 0.35s linear;
+       gap: 2.5rem;
+    
     }
     @keyframes buttomsanimate{
         0%{
